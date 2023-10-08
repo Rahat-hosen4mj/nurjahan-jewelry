@@ -1,12 +1,12 @@
-# Norjahan jewelries
+# Norjahan jewelry
 ## live site link
-Click here for live site link []()
+Click here for live site link [https://purnoboti-computers-world.web.app/](https://purnoboti-computers-world.web.app/)
 
 ## server side code link
 Click here for code link []().
 
 ## client site code link
-Click here for live site link []()
+Click here for live site link [https://github.com/Rahat-hosen4mj/nurjahan-jewelry](https://github.com/Rahat-hosen4mj/nurjahan-jewelry)
 
 ## technologies (frameworks, libraries) 
 * react router

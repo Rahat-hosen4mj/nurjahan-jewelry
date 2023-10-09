@@ -1,6 +1,6 @@
 # Norjahan jewelry
 ## live site link
-Click here for live site link []()
+Click here for live site link [ https://purnoboti-computers-world.web.app]( https://purnoboti-computers-world.web.app)
 
 ## server side code link
 Click here for code link [https://github.com/Rahat-hosen4mj/nurjahan-server](https://github.com/Rahat-hosen4mj/nurjahan-server).

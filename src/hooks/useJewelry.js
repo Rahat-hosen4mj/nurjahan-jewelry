@@ -2,17 +2,17 @@ import{ useEffect, useState } from 'react';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import auth from '../firebase.init';
 
-const useParts = () => {
+const useJewelry = () => {
   const [user] = useAuthState(auth);
-    const [parts, setParts] = useState([]);
+    const [jewelries, setJewelries] = useState([]);
 
     useEffect(() => {
-      fetch("http://localhost:5000/part")
+      fetch("http://localhost:5000/jewerly")
         .then((res) => res.json())
-        .then((data) => setParts(data));
+        .then((data) => setJewelries(data));
     }, [user]);
 
-    return [parts, setParts]
+    return [jewelries, setJewelries]
 };
 
-export default useParts;
+export default useJewelry;

@@ -25,7 +25,7 @@ const AddProduct = () => {
         .then(result =>{
           if(result.success){
             const img = result.data.url;
-            const part = {
+            const jewelry = {
                 
                 name: data.name,
                 description: data.description,
@@ -35,22 +35,22 @@ const AddProduct = () => {
                 img: img
             }
             // send to your database 
-            fetch('http://localhost:5000/part', {
+            fetch('http://localhost:5000/jewelry', {
                 method: 'POST',
                 headers: {
                     'content-type': 'application/json',
                     authorization: `Bearer ${localStorage.getItem('accessToken')}`
                 },
-                body: JSON.stringify(part)
+                body: JSON.stringify(jewelry)
             })
             .then(res =>res.json())
             .then(inserted =>{
               if(inserted.insertedId){
-                  toast.success('part added successfully')
+                  toast.success('jewelry added successfully')
                   reset();
               }
               else{
-                  toast.error('Failed to add the part');
+                  toast.error('Failed to add the jewelry');
               }
           })
     
@@ -60,7 +60,7 @@ const AddProduct = () => {
 
     return (
         <div className="pl-48">
-      <h2 className="text-3xl text-lime-400 py-4">ADD part in the database</h2>
+      <h2 className="text-3xl text-lime-400 py-4">ADD jewelry in the database</h2>
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className="form-control w-full max-w-xs">
           <input

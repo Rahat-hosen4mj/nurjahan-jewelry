@@ -21,7 +21,7 @@ Click here for live site link [https://github.com/Rahat-hosen4mj/nurjahan-jewelr
 * context Api
 * you can give review
 * show error mgs
-* add and delete part in database
+* add and delete jewelry in database
 * meaningfull component name
 * destructure
 

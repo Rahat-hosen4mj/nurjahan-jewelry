@@ -40,7 +40,7 @@ const Blog = () => {
           <img src="https://i.ibb.co/ZLYD1mZ/2.jpg" alt="ring" />
         </figure>
         <div className="card-body">
-          <h2 className="card-title">Earrings for Party</h2>
+          <h2 className="card-title">Earrings for Party yaay</h2>
           <p>
             <span className="">by</span>
             <span className="text-orange-500 text-sm px-4">Ashirwaad</span>
